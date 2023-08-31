@@ -1,0 +1,59 @@
+baseURL = "https://javrin.github.io"
+theme = "LoveIt"
+
+# language code ["en", "zh-CN", "fr", "pl", ...]
+languageCode = "en"
+# language name ["English", "简体中文", "Français", "Polski", ...]
+languageName = "English"
+
+[author]
+  name = "Jonas Avrin"
+  email = "j4vr1n.harmonics471@dralias.com"
+  link = "https://javrin.github.io"
+
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+  [[menu.main]]
+    weight = 2
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+  [[menu.main]]
+    weight = 3
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+  # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+  noClasses = false
+
+[params]
+  # title = "javrin"
+  # [params.app]
+  #   title = "javrin"
+  [params.header]
+    [params.header.title]
+      name = "javrin"
+  [params.home]
+    [params.home.profile]
+      # title = "javrin"
+      subtitle = "Welcome to my profile and portfolio on the web 👋"
