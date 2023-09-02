@@ -6,7 +6,7 @@
 	url = https://github.com/dillonzq/LoveIt.git
 [submodule "_templates"]
 	path = _templates
-	url = https://github.com/Jawabiscuit/obsidian-templates.git
+	url = https://github.com/Jawabiscuit/hugo-obsidian-templates.git
 [submodule ".obsidian"]
 	path = .obsidian
 	url = https://github.com/Jawabiscuit/.obsidian
