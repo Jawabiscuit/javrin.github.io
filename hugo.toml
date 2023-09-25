@@ -137,11 +137,11 @@ languageName = "English"
         title = ""
       [[languages.en.menu.main]]
         weight = 4
-        identifier = "portfolio"
+        identifier = "projects"
         pre = ""
         post = ""
-        name = "Portfolio"
-        url = "/portfolio/"
+        name = "Projects"
+        url = "/projects/"
         title = ""
       [[languages.en.menu.main]]
         weight = 5
