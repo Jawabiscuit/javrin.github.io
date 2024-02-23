@@ -8,11 +8,11 @@ content:
     type: collection
     path: content/posts
     view:
-      fields: [title, date]
+      fields: [title, draft, date]
     fields:
+      - {name: draft, label: Draft, type: boolean, default: true}
       - {name: title, label: Title, type: string}
       - {name: date, label: Date, type: date}
-      - {name: draft, label: Draft, type: boolean, default: true}
       - name: resources
         label: Resources
         type: object
@@ -31,5 +31,12 @@ content:
           - name: src
             label: Preview Featured Image
             type: image
-      - {name: categories, label: Categories, type: select, options: {values: [SSG, Game Dev]}}
+      - name: categories
+        label: Categories
+        type: select
+        options:
+          values:
+            SSG
+            CMS
+            Game Dev
       - {name: body, label: Body, type: rich-text}
