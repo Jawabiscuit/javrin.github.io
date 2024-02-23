@@ -13,3 +13,11 @@
 [submodule "themes/DoIt"]
 	path = themes/DoIt
 	url = https://github.com/HEIGE-PCloud/DoIt.git
+[submodule "_modules"]
+	path = _modules
+	url = https://github.com/Jawabiscuit/obsidian-modules
+	branch = sandbox
+[submodule "_mm"]
+	path = _mm
+	url = https://github.com/Jawabiscuit/metadata-menu.git
+	branch = sandbox
