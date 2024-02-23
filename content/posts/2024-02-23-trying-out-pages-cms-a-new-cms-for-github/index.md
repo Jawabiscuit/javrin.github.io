@@ -1,7 +1,7 @@
 ---
 draft: true
 title: Trying Out Pages CMS - A New CMS for GitHub
-date: 2024-02-23
+date: 2024-02-23T13:30:42-05:00
 resources:
   - name: featured-image
     src: featured-image.jpg
