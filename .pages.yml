@@ -14,14 +14,6 @@ content:
       - name: resources
         label: Resources
         type: object
-        fields:
-          - name: name
-            type: string
-            hidden: true
-            default: featured-image
-          - name: src
-            label: Featured Image
-            type: image
       - name: categories
         label: Categories
         type: select
