@@ -4,20 +4,26 @@ date: 2019-08-02T11:04:49+08:00
 draft: false
 description: "About me and this website"
 images: ["hugo-large.png"]
-
 lightgallery: true
+created: 2019-08-02 11:04
+modified: "[[2024-02-23 17:50]]"
 ---
 
 ## Author
 
-{{< person url="https://github.com/Jawabiscuit" name="Jonas Avrin" nick="javrin" text="Creator of this website" picture="/javrin.png" >}}
- | [CV](https://drive.proton.me/urls/6FCE51Z290#DOxITFoQUKJT) | Residence: [Connecticut, USA](https://www.google.com/maps/@41.4258218,-73.483079,13z)
+{{< person url="https://github.com/Jawabiscuit" name="Jonas Avrin" nick="javrin" text="Creator of this website" picture="https://avatars.githubusercontent.com/u/219464?v=4" >}}
+ | [CV](https://drive.proton.me/urls/V11RMFQ8R8#aMGnkOHP8fwY) | Residence: [Connecticut, USA](https://www.google.com/maps/@41.4258218,-73.483079,13z)
 
-With over 15 years of professional experience, I've journeyed from being an Animator and Character TD on blockbuster titles like GTA V and Red Dead Redemption to serving as a Technical Director solving complex challenges in the animated film and VFX industries. I've contributed my engineering expertise in iconic movie productions such as Ice Age 2 and Spies in Disguise and recently in live action movies such as Thor: Love and Thunder.
+Welcome! I'm a Pipeline Technical Director by trade with experience working in the Animation/VFX/Games industries. For an overview, cruise on over to my [LinkedIn] profile or take a look at my CV linked above.
 
-Over the years, I've developed custom animation tools for various software such as Maya as well as pipeline tools for studio environments, empowering artists in their creative process. Also on the OSS engineering front, I've recently contributed to the development of Rez, an integrated package configuration, build, and deployment system.
+With over 15 years of professional experience, I've transitioned from artist roles such as Animator and Character TD to technical roles such as Technical Director solving complex challenges and developing sophisticated workflows for AAA games, commercials, and movies. In technical roles, I've contributed my engineering expertise to developing animation tools and pipelines for iconic animated and live action cinematic productions. For a (mostly) complete list of projects, check out [imdb].
 
-Currently, I'm captivated by the potential of real-time pipelines utilizing game engines like Unreal for a multitude of mediums, from games to virtual production. I am equally passionate about leveraging machine learning and AI to realize humanity's most ambitious ideas when creating immersive experiences in visual media.
+As an active contributor on GitHub, I believe strongly in free (libre) and open-source development and have contributed to open source including `rez`, an incubation project under the Academy Software Foundation.
+
+Currently, I'm captivated by the potential of real-time pipelines utilizing game engines like Unreal for various mediums, from games to virtual production. I am equally motivated to harness the power of machine learning and AI as capable tools for realizing humanity's most ambitious ideas.
+
+[LinkedIn]: <https://linkedin.com/in/jonasavrin> "LinkedIn profile"
+[imdb]: <https://www.imdb.com/name/nm4065755/> "imdb profile"
 
 ---
 ## Site
