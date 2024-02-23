@@ -18,15 +18,18 @@ content:
         type: object
         fields:
           - name: name
-            label: Name
             type: string
             hidden: true
             default: featured-image
           - name: src
-            label: Image
+            label: Featured Image
             type: image
-            options:
-              path: assets/images
-              extensions: [jpg, png]
+          - name: name
+            type: string
+            hidden: true
+            default: featured-image-preview
+          - name: src
+            label: Preview Featured Image
+            type: image
       - {name: categories, label: Categories, type: select, options: {values: [SSG, Game Dev]}}
       - {name: body, label: Body, type: rich-text}
