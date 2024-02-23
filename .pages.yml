@@ -11,26 +11,33 @@ content:
       fields: [title, draft, date]
     fields:
       - {name: draft, label: Draft, type: boolean, default: true}
+      - {name: index, type: string, hidden: true}
       - {name: title, label: Title, type: string}
       - {name: date, label: Date, type: date}
       - name: resources
         label: Resources
         type: object
         fields:
-          - name: name
-            type: string
-            hidden: true
-            default: featured-image
-          - name: src
-            label: Featured Image
-            type: image
-          - name: name
-            type: string
-            hidden: true
-            default: featured-image-preview
-          - name: src
-            label: Preview Featured Image
-            type: image
+          - name: featured-image
+            type: object
+            fields:
+            - name: name
+              type: string
+              hidden: true
+              default: featured-image
+            - name: src
+              label: Featured Image
+              type: image
+          - name: featured-image-preview
+            type: object
+            fields:
+            - name: name
+              type: string
+              hidden: true
+              default: featured-image-preview
+            - name: src
+              label: Preview Featured Image
+              type: image
       - name: categories
         label: Categories
         type: select
