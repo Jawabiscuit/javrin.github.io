@@ -1,1 +1,10 @@
 media: assets
+content:
+  - name: posts
+    label: Posts
+    type: collection
+    path: content/posts
+    view:
+      fields: [title, date]
+    fields:
+      - {name: title, label: Title, type: string}
