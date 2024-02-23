@@ -16,9 +16,13 @@ content:
         fields:
           - name: featured-image
             label: Featured Image
-            type: object
+            type: image
             fields:
               - name: src
                 label: Image
-                type: image
+                list: true
+                options:
+                  path: assets/images
+                  extensions: [jpg, png]
+                  
       - {name: body, label: Body, type: rich-text}
