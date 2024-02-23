@@ -24,3 +24,16 @@ Styled using [LoveIt](https://github.com/dillonzq/LoveIt).
 
 > [LoveIt](https://github.com/dillonzq/LoveIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [Dillon](https://dillonzq.com/).
 > It is based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
+
+---
+## CMS
+
+I'm currently trying out [Pages CMS] - A new CMS for static websites hosted on GitHub. The future seems promising!
+
+I'm using [ObsidianMD] as a powerful and convenient editing interface for content.
+
+> **[Obsidian] is a personal knowledge base and note-taking software application that operates on Markdown files**.
+
+[Pages CMS]: <https://github.com/pages-cms/pages-cms> "A user-friendly CMS for static site generators"
+[ObsidianMD]: <https://github.com/obsidianmd/obsidian-releases> "Obsidian on GitHub"
+[Obsidian]: <https://obsidian.md/> "Obsidian website"
