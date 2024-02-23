@@ -31,6 +31,6 @@ content:
             CMS
             Game Dev
       - {name: body, label: Body, type: rich-text}
-    filename: index
+    filename: index.md
     view:
       fields: [title, draft, date]
