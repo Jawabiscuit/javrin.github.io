@@ -25,5 +25,5 @@ content:
             options:
               path: assets/images
               extensions: [jpg, png]
-      - {name: categories, label: Categories, type: select}
+      - {name: categories, label: Categories, type: select, options: {values: [SSG, Game Dev]}}
       - {name: body, label: Body, type: rich-text}
