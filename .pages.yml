@@ -19,6 +19,7 @@ content:
         type: object
         fields:
           - name: featured-image
+            label: Featured Image
             type: object
             fields:
             - name: name
@@ -29,6 +30,7 @@ content:
               label: Featured Image
               type: image
           - name: featured-image-preview
+            label: Featured Image Preview
             type: object
             fields:
             - name: name
