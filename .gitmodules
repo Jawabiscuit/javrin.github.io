@@ -10,3 +10,6 @@
 [submodule "_templates"]
 	path = _templates
 	url = https://github.com/Jawabiscuit/obsidian-templates
+[submodule "themes/DoIt"]
+	path = themes/DoIt
+	url = https://github.com/HEIGE-PCloud/DoIt.git
