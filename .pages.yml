@@ -1,6 +1,6 @@
 media:
-  input: posts
-  output: /posts
+  input: content/posts
+  output: /content/posts
   categories: [image]
 content:
   - name: posts
