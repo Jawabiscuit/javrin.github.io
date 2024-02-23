@@ -1,4 +1,7 @@
-media: assets
+media:
+  input: posts
+  output: /posts
+  categories: [image]
 content:
   - name: posts
     label: Posts
