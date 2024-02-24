@@ -56,7 +56,8 @@ content:
             label: Image
             type: image
             options:
-              input: "content/posts/{year}-{month}-{day}-{primary}"
+              input: content/posts
+              output: /content/posts
               categories: [image]
       - {name: body, label: Body, type: rich-text}
     filename: index.md
