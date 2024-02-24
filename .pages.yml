@@ -49,10 +49,15 @@ content:
         fields:
           - name: name
             type: string
-            hidden: false
             default: featured-image
           - name: src
             label: Featured Image
+            type: image
+          - name: name
+            type: string
+            default: featured-image-preview
+          - name: src
+            label: Featured Image Preview
             type: image
       - {name: body, label: Body, type: rich-text}
     filename: index.md
