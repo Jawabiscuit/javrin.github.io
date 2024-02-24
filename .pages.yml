@@ -33,15 +33,15 @@ content:
         type: select
         options:
           values:
-            SSG
-            CMS
-            Game Dev
+            - SSG
+            - CMS
+            - Game Dev
       - name: tags
         label: Tags
         type: select
         options:
           values:
-            hello-world
+            - hello-world
       - {name: body, label: Body, type: rich-text}
     filename: index.md
     view:
