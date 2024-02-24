@@ -43,7 +43,6 @@ content:
         list:
           min: 1
           max: 4
-          default: [hello-world]
       - name: resources
         label: Resources
         type: object
