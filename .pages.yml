@@ -80,6 +80,7 @@ content:
         type: image
         list: true
         options:
+          input: assets/images
           categories: [image]
       - {name: lightgallery, label: Light Gallery, type: boolean, default: true}
       - name: created
