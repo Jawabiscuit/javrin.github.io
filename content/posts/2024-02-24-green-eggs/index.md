@@ -10,8 +10,8 @@ tags:
   - recipes
 resources:
   - name: featured-image
-    src: /assets/images/2024-02-24-green-eggs/featured-image.png
+    src: content/posts/2024-02-24-green-eggs/featured-image.png
   - name: featured-image-preview
-    src: /assets/images/2024-02-24-green-eggs/featured-image-preview.png
+    src: content/posts/2024-02-24-green-eggs/featured-image-preview.png
 ---
 This is a plate of steamy green eggs.
