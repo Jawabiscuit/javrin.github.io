@@ -10,5 +10,8 @@ tags:
   - such-wow
 resources:
   - name: featured-image
+    src: content/posts/2024-02-24-amazeballs/featured-image.png
   - name: featured-image-preview
+    src: content/posts/2024-02-24-amazeballs/featured-image-preview.png
 ---
+Such wow, very amaze.
