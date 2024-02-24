@@ -57,7 +57,6 @@ content:
             type: image
             options:
               input: content/posts
-              output: /content/posts
               categories: [image]
       - {name: body, label: Body, type: rich-text}
     filename: index.md
@@ -82,7 +81,7 @@ content:
         type: image
         list: true
         options:
-          path: content/about
+          input: content/about
           categories: [image]
       - {name: lightgallery, label: Light Gallery, type: boolean, default: true}
       - name: created
