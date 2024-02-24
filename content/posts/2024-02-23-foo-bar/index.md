@@ -4,8 +4,11 @@ title: Foo Bar
 date: 2024-02-23T14:30:42-05:00
 created: 2024-02-23 14:30
 modified: 2024-02-24 11:00
-categories: CMS
-tags: hello-world
+categories:
+  - SSG
+  - CMS
+tags:
+  - hello-world
 resources:
   - name: featured-image
     src: /content/posts/2024-02-23-foo-bar/featured-image.jpg
