@@ -1,6 +1,6 @@
 media:
   input: content/posts
-  output: /content/posts
+  output: ""
   categories: [image]
 content:
   - name: posts
@@ -55,6 +55,8 @@ content:
           - name: src
             label: Image
             type: image
+            options:
+              categories: [image]
       - {name: body, label: Body, type: rich-text}
     filename: index.md
     view:
@@ -78,7 +80,7 @@ content:
         type: image
         list: true
         options:
-          categories: image
+          categories: [image]
       - {name: lightgallery, label: Light Gallery, type: boolean, default: true}
       - name: created
         label: Created
