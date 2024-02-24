@@ -55,7 +55,7 @@ content:
               input: content/posts
               categories: [image]
       - {name: body, label: Body, type: rich-text}
-    filename: index.md
+    filename: "{year}-{month}-{day}-{primary}/index.md"
     view:
       fields: [title, draft, date]
   - name: about
