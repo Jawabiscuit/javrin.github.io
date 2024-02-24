@@ -31,6 +31,7 @@ content:
       - name: categories
         label: Categories
         type: select
+        list: true
         options:
           values:
             - SSG
@@ -39,6 +40,7 @@ content:
       - name: tags
         label: Tags
         type: select
+        list: true
         options:
           values:
             - hello-world
