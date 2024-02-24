@@ -82,6 +82,7 @@ content:
         list: true
         options:
           input: content/about
+          output: content/about
           categories: [image]
       - {name: lightgallery, label: Light Gallery, type: boolean, default: true}
       - name: created
