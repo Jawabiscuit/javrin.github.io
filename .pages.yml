@@ -1,7 +1,3 @@
-media:
-  input: assets/images
-  output: /assets/images
-  categories: [image]
 content:
   - name: posts
     label: Posts
