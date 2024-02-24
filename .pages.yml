@@ -30,13 +30,8 @@ content:
           time: true
       - name: categories
         label: Categories
-        type: select
+        type: string
         list: true
-        options:
-          values:
-            - SSG
-            - CMS
-            - Game Dev
       - name: tags
         label: Tags
         type: select
