@@ -46,13 +46,14 @@ content:
       - name: resources
         label: Resources
         type: object
-        list: true
+        list:
+          min: 2
         fields:
           - name: name
             type: string
             default: featured-image
           - name: src
-            label: Featured Image
+            label: Image
             type: image
       - {name: body, label: Body, type: rich-text}
     filename: index.md
