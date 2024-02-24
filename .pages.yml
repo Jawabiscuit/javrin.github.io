@@ -57,6 +57,7 @@ content:
             type: image
             options:
               input: content/posts
+              output: content/posts
               categories: [image]
       - name: images
         label: Images
@@ -64,6 +65,7 @@ content:
         list: true
         options:
           input: content/posts
+          output: content/posts
           categories: [image]
       - {name: body, label: Body, type: rich-text}
     filename: index.md
