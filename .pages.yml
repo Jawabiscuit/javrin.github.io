@@ -53,12 +53,6 @@ content:
           - name: src
             label: Featured Image
             type: image
-          - name: name
-            type: string
-            default: featured-image-preview
-          - name: src
-            label: Featured Image Preview
-            type: image
       - {name: body, label: Body, type: rich-text}
     filename: index.md
     view:
