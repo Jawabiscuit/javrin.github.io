@@ -2,13 +2,9 @@
 draft: true
 title: Trying Out Pages CMS - A New CMS for GitHub
 date: 2024-02-23T13:30:42-05:00
-resources:
-  - name: featured-image
-    src: featured-image.jpg
-  - name: featured-image-preview
-    src: featured-image-preview.jpg
 created: 2024-02-23 13:30
 modified: "[[2024-02-23 15:51]]"
+categories: CMS
 ---
 I've been investigating solutions for [CMS] but haven't jumped into anything, until today, and who can blame me with the number of solutions sprouting up daily (it seems). There's [decapcms] which I've known about since day 1, the gran-daddy you might say.
 
