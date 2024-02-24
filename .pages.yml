@@ -30,15 +30,20 @@ content:
           time: true
       - name: categories
         label: Categories
-        type: string
-        list: true
-      - name: tags
-        label: Tags
         type: select
         list: true
         options:
           values:
-            - hello-world
+            - SSG
+            - CMS
+            - Game Dev
+      - name: tags
+        label: Tags
+        type: string
+        list:
+          min: 1
+          max: 4
+          default: [hello-world]
       - name: resources
         label: Resources
         type: object
