@@ -53,6 +53,7 @@ content:
             type: image
             options:
               input: content/posts
+              output: ""
               categories: [image]
       - {name: body, label: Body, type: rich-text}
     filename: "{year}-{month}-{day}-{primary}/index.md"
