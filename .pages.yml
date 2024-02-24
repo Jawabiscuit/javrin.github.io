@@ -49,7 +49,8 @@ content:
   - name: about
     label: About
     type: file
-    path: content/about/index
+    path: content/about
+    filename: index.md
     fields:
       - {name: draft, label: Draft, type: boolean, default: true}
       - {name: title, label: Title, type: string}
