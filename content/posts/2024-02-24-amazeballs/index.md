@@ -13,5 +13,7 @@ resources:
     src: /content/posts/2024-02-24-amazeballs/featured-image.png
   - name: featured-image-preview
     src: /content/posts/2024-02-24-amazeballs/featured-image-preview.png
+images:
+  - /assets/2024-02-24-amazeballs/motion-energy-passion.png
 ---
 Such wow, very amaze.
