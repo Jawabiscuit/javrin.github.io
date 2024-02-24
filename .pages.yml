@@ -54,10 +54,4 @@ content:
       - {name: draft, label: Draft, type: boolean, default: true}
       - {name: title, label: Title, type: string}
       - {name: description, label: Description, type: string}
-      - name: date
-        label: Date
-        type: date
-        options:
-          format: YYYY-MM-DDTHH:mm:ssZ
-          time: true
       
