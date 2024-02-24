@@ -79,4 +79,5 @@ content:
         options:
           format: YYYY-MM-DD HH:mm
           time: true
+      - {name: body, label: Body, type: rich-text}
       
