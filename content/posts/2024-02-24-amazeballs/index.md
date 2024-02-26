@@ -10,10 +10,10 @@ tags:
   - such-wow
 resources:
   - name: featured-image
-    src: /content/posts/2024-02-24-amazeballs/featured-image.png
+    src: featured-image.png
   - name: featured-image-preview
-    src: /content/posts/2024-02-24-amazeballs/featured-image-preview.png
+    src: featured-image-preview.png
 images:
-  - content/posts/2024-02-24-amazeballs/motion-energy-passion.png
+  - motion-energy-passion.png
 ---
 Such wow, very amaze.

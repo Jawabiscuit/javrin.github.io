@@ -5,7 +5,6 @@ description: About me and this website
 date: 2019-08-02T11:04:49+08:00
 images:
   - hugo-large.png
-  - content/about/cghijinks_a_plate_of_steamy_green_eggs_028a4680-c156-4d15-b4e6-2eac727ec92d.png
 lightgallery: true
 created: 2019-08-02 11:04
 modified: 2024-02-24 12:45
