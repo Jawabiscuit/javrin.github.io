@@ -1,3 +1,7 @@
+media:
+  input: assets
+  output: /assets
+  categories: [image]
 content:
   - name: posts
     label: Posts
@@ -53,7 +57,16 @@ content:
             type: image
             options:
               input: content/posts
+              output: content/posts
               categories: [image]
+      - name: images
+        label: Images
+        type: image
+        list: true
+        options:
+          input: content/posts
+          output: content/posts
+          categories: [image]
       - {name: body, label: Body, type: rich-text}
     filename: index.md
     view:
@@ -78,6 +91,7 @@ content:
         list: true
         options:
           input: content/about
+          output: content/about
           categories: [image]
       - {name: lightgallery, label: Light Gallery, type: boolean, default: true}
       - name: created

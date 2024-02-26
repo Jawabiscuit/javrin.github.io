@@ -11,9 +11,9 @@ tags:
   - hello-world
 resources:
   - name: featured-image
-    src: /content/posts/2024-02-23-foo-bar/featured-image.jpg
+    src: featured-image.jpg
   - name: featured-image-preview
-    src: /content/posts/2024-02-23-foo-bar/featured-image-preview.jpg
+    src: featured-image-preview.jpg
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et malesuada fames ac turpis. Duis tristique sollicitudin nibh sit. Nisi est sit amet facilisis magna etiam tempor orci eu. Ligula ullamcorper malesuada proin libero nunc consequat interdum. Viverra ipsum nunc aliquet bibendum enim facilisis. Purus sit amet luctus venenatis lectus. Egestas pretium aenean pharetra magna ac placerat. Facilisis gravida neque convallis a cras semper auctor neque. Quis auctor elit sed vulputate mi sit amet mauris commodo. Libero volutpat sed cras ornare arcu dui vivamus arcu felis. Lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci. Id diam maecenas ultricies mi eget mauris pharetra et ultrices. Tortor posuere ac ut consequat semper viverra nam. Volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque.
 
