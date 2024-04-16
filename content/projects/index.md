@@ -20,6 +20,51 @@ The following demo projects focus on specific game mechanics. They aren't meant 
 
 &nbsp;
 
+## Game Character Rigging and Animation Demo
+
+Examples of characters I've animated in Cascadeur and imported into Unreal Engine as well as the rigging process used to prepare models for animation for use in Unreal Engine.
+
+{{< vimeo 935420674>}}
+
+**Animation Breakdown**
+
+- Cascy dance animation
+	- Character model and rig shipped with Cascadeur and imported into Unreal
+	- Materials created in Unreal
+	- Animated in Cascadeur using reference and imported into Unreal
+- Midnight Witch backflip animation
+	- Model and rig for Shadow Fight Arena 4 game provided by Cascadeur on Renderhub
+	- Rig prepared in Maya for Chaos cloth simulation
+	- Cloth simulated in Unreal
+	- Animated in Cascadeur using reference and imported into Unreal
+- Standard Model Male breakdance animation
+	- Model shipped with Cascadeur
+	- Rigged in Maya using mGear and the mannequin template for Unreal Engine 5.3
+	- Animation is mocap that is retargeted from UE mannequin and cleaned in Cascadeur
+- Std. Model Male silly dance animation
+	- Animation is mocap that is retargeted from UE mannequin and cleaned in Cascadeur
+
+**Rigging Breakdown**
+
+- Joints are bound to the meshes and weights painted (not shown)
+	- Weights are exported
+- mGear UE5 mannequin template is used to start with but is modified significantly, limbs recreated to suit a T-pose and 2 fingers are all that is needed for this character.
+- Guide positioning
+		- Guides are positioned, rig is built and tested repetitively to ensure accuracy and usability
+- Rig building
+	- Limbs are built separately to optimize for performance
+	- The entire rig is mirrored and built at the end of the process
+- Rig testing
+	- The character rig is removed
+	- Guides are built
+	- Skin weights are imported
+	- Deformations are tested
+	- The same process is repeated for each mesh bound to the skeleton
+- Refinement
+	- The rig is refined by repeating from an earlier stage of the entire process
+- Control Shaping
+	- The control curves are reshaped to maximize animation ergonomics
+
 ## GAS Top Down RPG
 
 GAS (Gameplay Ability System) RPG created using C++ in Unreal
