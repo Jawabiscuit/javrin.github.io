@@ -65,7 +65,6 @@ Examples of characters I've animated in Cascadeur and imported into Unreal Engin
 - Control Shaping
 	- The control curves are reshaped to maximize animation ergonomics
 
-
 ## GAS Top Down RPG
 
 GAS (Gameplay Ability System) RPG created using C++ in Unreal
