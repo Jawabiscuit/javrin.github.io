@@ -10,21 +10,14 @@ math:
 created: 2023-09-11 13:34
 modified: 2024-02-26 08:36
 ---
-# Unreal
 
-Videos of projects I've made using Unreal Engine.
-
-{{< admonition type=note open=true >}}
-The following demo projects focus on specific game mechanics. They aren't meant to do everything, just do a few things really well.
-{{< /admonition >}}
-
-&nbsp;
-
-## Game Character Rigging and Animation Demo
+# Game Character Rigging and Animation Demo
 
 Examples of characters I've animated in Cascadeur and imported into Unreal Engine as well as the rigging process used to prepare models for animation for use in Unreal Engine.
 
 {{< vimeo 935420674>}}
+
+&nbsp;
 
 **Animation Breakdown**
 
@@ -64,6 +57,18 @@ Examples of characters I've animated in Cascadeur and imported into Unreal Engin
 	- The rig is refined by repeating from an earlier stage of the entire process
 - Control Shaping
 	- The control curves are reshaped to maximize animation ergonomics
+
+&nbsp;
+
+# Unreal Engine Game Dev
+
+Videos of projects I've made using Unreal Engine.
+
+{{< admonition type=note open=true >}}
+The following demo projects focus on specific game mechanics. They aren't meant to do everything, just do a few things really well.
+{{< /admonition >}}
+
+&nbsp;
 
 ## GAS Top Down RPG
 
