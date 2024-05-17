@@ -2,3 +2,4 @@
 *.trash
 resources/_gen
 public
+**/Thumbs.db
