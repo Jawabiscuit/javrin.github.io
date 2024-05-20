@@ -14,11 +14,11 @@ tags:
 created: 2024-04-18 19:41
 modification date: 2024-04-18 19:41
 ---
-# UE5 Game Dev Log
+Today's development sessions were about creating a dash roll mechanic for the character and re-animating bits of her locomotion animation in Cascadeur after the retargeting from UE5 mannequin. The video is mostly me noodling around in Cascadeur which I've been evaluating for character animation then applying the cleaned animation into the game and finally testing it along with the other fun new features I added.
+
+&nbsp;
 
 {{< youtube SNfOGZcqMhY >}}
-
-Today's development sessions were about creating a dash roll mechanic for the character and re-animating bits of her locomotion animation in Cascadeur after the retargeting from UE5 mannequin. The video is mostly me noodling around in Cascadeur which I've been evaluating for character animation then applying the cleaned animation into the game and finally testing it along with the other fun new features I added.
 
 ## About the Character
 
